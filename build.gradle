@@ -27,11 +27,11 @@ dependencies {
     compile localGroovy()
     compile (
       [group: 'net.sf.saxon', name: 'Saxon-HE', version: saxonVersion],
-      [group: 'com.xmlcalabash', name: 'xmlcalabash', version: '1.1.9-96']
+      [group: 'com.xmlcalabash', name: 'xmlcalabash', version: xmlcalabashVersion]
     )
 
     testCompile (
-      [group: 'com.xmlcalabash', name: 'xmlcalabash', version: '1.1.9-96'],
+      [group: 'com.xmlcalabash', name: 'xmlcalabash', version: xmlcalabashVersion],
       [group: 'junit', name: 'junit', version: '4.12']
     )
 
